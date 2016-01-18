@@ -26,6 +26,9 @@ public class FortuneScraper {
 
 		try {
 			final WebClient webClient = new WebClient(BrowserVersion.FIREFOX_38);
+			
+			// WebClient parameters to avoid JS problems with specific web page 
+			
 			webClient.getOptions().setJavaScriptEnabled(true);
 			webClient.getOptions().setCssEnabled(false);
 			webClient.setAjaxController(new NicelyResynchronizingAjaxController());
