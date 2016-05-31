@@ -1,2 +1,5 @@
 # fortune-scraper
-A "not yet working infant" of future stock market analyzer with modern visualization features.
+Script (web scraping) for  stock market analyzer.
+
+purpose:
+team building
